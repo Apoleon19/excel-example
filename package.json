@@ -1,0 +1,53 @@
+{
+  "name": "excel-example",
+  "version": "1.0.0",
+  "description": "JavaScript Excel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apoleon19/excel-example.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Apoleon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apoleon19/excel-example/issues"
+  },
+  "homepage": "https://github.com/Apoleon19/excel-example#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.17.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-webpack-plugin": "^2.4.1",
+    "extract-css-chunks-webpack-plugin": "^4.9.0",
+    "html-webpack-plugin": "^4.5.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
