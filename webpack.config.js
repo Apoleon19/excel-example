@@ -12,6 +12,7 @@ const filename = ext => isDev ? `bundle.${ext}` : `bundle.[fullhash].${ext}`
 
 
 module.exports = {
+  target: 'web', // fix hot reload browser
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
   entry: ['@babel/polyfill', './index.js'],
